@@ -506,6 +506,7 @@ static esp_err_t zb_custom_cluster_handler(const esp_zb_zcl_custom_cluster_comma
         // 偏移2处4字节为 pitch 角
         memcpy(&pitch, p + 3, 4);
         // 偏移6处4字节为 roll 角
+        
         memcpy(&roll, p + 7, 4);
         // 偏移10处4字节为 yaw 角
         memcpy(&yaw, p + 11, 4);
