@@ -2412,7 +2412,6 @@ typedef struct esp_zb_zcl_custom_cluster_command_message_s {
         void *value;   /*!< The value of custom data */
     } data;            /*!< The custom data */
 } esp_zb_zcl_custom_cluster_command_message_t;
-
 #ifdef CONFIG_ZB_GP_ENABLED
 /**
  * @brief The message for receiving the green power command
